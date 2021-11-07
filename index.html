@@ -1,0 +1,17 @@
+<html>
+<body style="background-color: #E6E6FA">
+<video id="myVideo" width="10" height="10">
+  <source src="test.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+    <script>
+      document.querySelector("body").addEventListener("click", (_) => {
+      var vid = document.getElementById("myVideo");
+      vid.play()
+      });
+    </script>
+    <script>
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    </script>
+</body>
+</html>
